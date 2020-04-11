@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="qs_theme_color_android">
+        <item>#ffffffff</item>
+        <item>@color/oneplus_contorl_text_color_primary_dark</item>
+        <item>@color/oneplus_contorl_text_color_secondary_dark</item>
+        <item>@color/oneplus_contorl_icon_color_active_dark</item>
+        <item>#4dffffff</item>
+        <item>#ff000000</item>
+        <item>@color/oneplus_contorl_bg_color_dialogs_dark</item>
+        <item>@color/oneplus_contorl_icon_color_active_dark</item>
+        <item>#3dffffff</item>
+        <item>#89ffffff</item>
+        <item>#42ffffff</item>
+        <item>#1effffff</item>
+        <item>#ff151515</item>
+        <item>@color/oneplus_contorl_bg_color_menu_dark</item>
+        <item>#1effffff</item>
+        <item>#1fffffff</item>
+        <item>#0fffffff</item>
+        <item>#ffffffff</item>
+    </array>
+    <array name="qs_theme_color_black">
+        <item>#b2ffffff</item>
+        <item>@color/oneplus_contorl_text_color_primary_dark</item>
+        <item>@color/oneplus_contorl_text_color_secondary_dark</item>
+        <item>@color/oneplus_contorl_icon_color_active_dark</item>
+        <item>#4dffffff</item>
+        <item>#ff000000</item>
+        <item>@color/oneplus_contorl_bg_color_dialogs_dark</item>
+        <item>@color/oneplus_contorl_icon_color_active_dark</item>
+        <item>#3dffffff</item>
+        <item>#89ffffff</item>
+        <item>#42ffffff</item>
+        <item>#1effffff</item>
+        <item>#ff151515</item>
+        <item>@color/oneplus_contorl_bg_color_menu_dark</item>
+        <item>#1effffff</item>
+        <item>#1fffffff</item>
+        <item>#0fffffff</item>
+        <item>#ffffffff</item>
+    </array>
+</resources>
