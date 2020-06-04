@@ -122,7 +122,7 @@
     </style>
     <style name="AppEntitiesHeader.Text" parent="@android:style/TextAppearance.Material.Subhead">
         <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFamily</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
     </style>
     <style name="AppEntitiesHeader.Text.HeaderTitle" parent="@style/AppEntitiesHeader.Text">
         <item name="android:textSize">14.0sp</item>
@@ -136,7 +136,7 @@
     </style>
     <style name="BarChart.Text" parent="@android:style/TextAppearance.Material.Subhead">
         <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFamily</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
     </style>
     <style name="BarChart.Text.HeaderTitle" parent="@style/BarChart.Text">
         <item name="android:textSize">14.0sp</item>
@@ -1650,7 +1650,7 @@
         <item name="android:paddingTop">@dimen/contextual_deferred_setup_card_button_padding_top</item>
         <item name="android:paddingBottom">@dimen/contextual_deferred_setup_card_button_padding_bottom</item>
         <item name="android:textAllCaps">false</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFamily</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
         <item name="android:paddingStart">@dimen/contextual_deferred_setup_card_button_padding_start</item>
         <item name="android:paddingEnd">@dimen/contextual_deferred_setup_card_button_padding_end</item>
     </style>
@@ -2477,6 +2477,10 @@
         <item name="android:textColor">@color/op_btn_colored_raised_text_material_light</item>
     </style>
     <style name="OnePlus.Theme.DeviceDefault.Dialog.Picker" parent="@style/Oneplus.Theme.Material.Light.Dialog.Picker" />
+    <style name="OnePlus.Theme.Dialog.NoActionBar" parent="@style/OnePlus.Theme.Dialog.Picker">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
     <style name="OnePlus.Theme.Dialog.Picker" parent="@style/OnePlus.Theme.DeviceDefault.Dialog.Picker">
         <item name="android:windowSoftInputMode">adjustResize</item>
         <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
@@ -5652,11 +5656,11 @@
     </style>
     <style name="TextAppearance.ConditionCardTitle" parent="@android:style/TextAppearance.DeviceDefault.Subhead">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFamily</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
     </style>
     <style name="TextAppearance.ContextualCardDismissalText" parent="@android:style/TextAppearance.DeviceDefault.Body1">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFamily</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
     </style>
     <style name="TextAppearance.CryptKeeper_PasswordEntry" parent="@android:style/TextAppearance.DeviceDefault">
         <item name="android:gravity">center_horizontal</item>
@@ -5670,7 +5674,7 @@
     </style>
     <style name="TextAppearance.DeferredSetupCardTitle" parent="@style/TextAppearance">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFamily</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
     </style>
     <style name="TextAppearance.Design.CollapsingToolbar.Expanded" parent="@style/TextAppearance.AppCompat.Display1">
         <item name="android:textColor">?android:textColorPrimary</item>
@@ -5714,7 +5718,7 @@
     <style name="TextAppearance.EntityHeaderTitle" parent="@android:style/TextAppearance.Material.Subhead">
         <item name="android:textSize">20.0sp</item>
         <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFamily</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
     </style>
     <style name="TextAppearance.ErrorText" parent="@android:style/TextAppearance.DeviceDefault.Body1">
         <item name="android:textColor">?android:colorError</item>
@@ -6564,7 +6568,7 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:listDivider">@android:drawable/list_divider_material</item>
         <item name="android:dividerHorizontal">@android:drawable/list_divider_material</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFamily</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
     </style>
     <style name="Theme.ProvisioningActivity" parent="@android:style/Theme.Translucent.NoTitleBar">
         <item name="android:windowBackground">@android:color/transparent</item>

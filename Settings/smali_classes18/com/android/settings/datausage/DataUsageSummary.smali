@@ -215,7 +215,7 @@
 
     new-instance v5, Landroid/text/SpannableString;
 
-    const v7, 0x1040291
+    const v7, 0x1040292
 
     move-object/from16 v10, p0
 
@@ -476,7 +476,7 @@
 .method public getHelpResource()I
     .locals 1
 
-    const v0, 0x7f1207cb
+    const v0, 0x7f1207ca
 
     return v0
 .end method

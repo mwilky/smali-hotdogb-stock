@@ -4,6 +4,10 @@
 
 
 # static fields
+.field private static final KEY_LOCATION_INFORMATION:Ljava/lang/String; = "op_location_information"
+
+.field private static final KEY_LOCATION_INFORMATION_TYPE:I = 0x9
+
 .field static final LOCATION_DRAWABLE:[I
 
 .field public static final SEARCH_INDEX_DATA_PROVIDER:Lcom/android/settings/search/Indexable$SearchIndexProvider;
@@ -37,10 +41,10 @@
 
     :array_0
     .array-data 4
-        0x7f080484
-        0x7f080497
+        0x7f080485
         0x7f080498
         0x7f080499
+        0x7f08049a
     .end array-data
 .end method
 
@@ -124,7 +128,7 @@
 .end method
 
 .method private static buildPreferenceControllers(Landroid/content/Context;Lcom/android/settings/location/LocationSettings;Lcom/android/settingslib/core/lifecycle/Lifecycle;)Ljava/util/List;
-    .locals 2
+    .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -184,6 +188,16 @@
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
+    new-instance v1, Lcom/oneplus/settings/OPLegalSettingsControlPreferenceController;
+
+    const-string v2, "op_location_information"
+
+    const/16 v3, 0x9
+
+    invoke-direct {v1, p0, v2, v3}, Lcom/oneplus/settings/OPLegalSettingsControlPreferenceController;-><init>(Landroid/content/Context;Ljava/lang/String;I)V
+
+    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
     return-object v0
 .end method
 
@@ -230,7 +244,7 @@
 .method public getHelpResource()I
     .locals 1
 
-    const v0, 0x7f1207d5
+    const v0, 0x7f1207d4
 
     return v0
 .end method
@@ -274,7 +288,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f12092b
+    const v2, 0x7f12092a
 
     invoke-virtual {v1, v2, v2}, Lcom/android/settings/widget/SwitchBar;->setSwitchBarText(II)V
 

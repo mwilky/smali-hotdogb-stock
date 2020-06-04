@@ -36,7 +36,7 @@
 .method private initDefaultBuilderParams()V
     .locals 2
 
-    const v0, 0x10406b4
+    const v0, 0x10406b5
 
     invoke-virtual {p0, v0}, Lcom/android/settings/TrustedCredentialsDialogBuilder;->setTitle(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
@@ -50,7 +50,7 @@
 
     const/4 v0, 0x0
 
-    const v1, 0x7f121597
+    const v1, 0x7f12159f
 
     invoke-virtual {p0, v1, v0}, Lcom/android/settings/TrustedCredentialsDialogBuilder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 

@@ -111,7 +111,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const v1, 0x7f120e8c
+    const v1, 0x7f120e8a
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -122,7 +122,7 @@
     :cond_0
     if-nez v0, :cond_1
 
-    const v1, 0x7f120e90
+    const v1, 0x7f120e8e
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -131,7 +131,7 @@
     return-object v1
 
     :cond_1
-    const v1, 0x7f120e8a
+    const v1, 0x7f120e88
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -340,7 +340,7 @@
 
     aput-object v3, v2, v4
 
-    const v3, 0x7f120e92
+    const v3, 0x7f120e90
 
     invoke-virtual {v1, v3, v2}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 

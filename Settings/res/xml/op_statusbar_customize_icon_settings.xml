@@ -9,7 +9,7 @@
     <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_hotspot_title" android:key="hotspot" />
     <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_bluetooth_title" android:key="bluetooth" />
     <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_dnd_title" android:key="zen" />
-    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@android:string/volume_ringtone" android:key="volume" />
+    <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@android:string/volume_unknown" android:key="volume" />
     <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_wifi_title" android:key="wifi" />
     <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_ethernet_title" android:key="ethernet" />
     <com.oneplus.settings.statusbar.StatusBarSwitch android:title="@string/status_bar_settings_cellular_title" android:key="mobile" />

@@ -198,7 +198,7 @@
 
     iget-object v0, p0, Lcom/oneplus/settings/better/OPReadingModeTurnOnSettings;->mFooterPreference:Lcom/oneplus/settings/widget/OPFooterPreference;
 
-    const v1, 0x7f120e99
+    const v1, 0x7f120e97
 
     invoke-virtual {v0, v1}, Lcom/oneplus/settings/widget/OPFooterPreference;->setTitle(I)V
 

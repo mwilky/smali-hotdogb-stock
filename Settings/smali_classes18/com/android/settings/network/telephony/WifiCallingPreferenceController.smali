@@ -363,7 +363,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f12179a
+    const v3, 0x7f1217a1
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -371,7 +371,7 @@
 
     invoke-virtual {p1, v0}, Landroidx/preference/Preference;->setTitle(Ljava/lang/CharSequence;)V
 
-    const v3, 0x1040792
+    const v3, 0x1040793
 
     iget-object v4, p0, Lcom/android/settings/network/telephony/WifiCallingPreferenceController;->mImsManager:Lcom/android/ims/ImsManager;
 
@@ -432,17 +432,17 @@
     goto :goto_2
 
     :cond_4
-    const v3, 0x104076c
+    const v3, 0x104076d
 
     goto :goto_2
 
     :cond_5
-    const v3, 0x104076a
+    const v3, 0x104076b
 
     goto :goto_2
 
     :cond_6
-    const v3, 0x104076b
+    const v3, 0x104076c
 
     :cond_7
     :goto_2
