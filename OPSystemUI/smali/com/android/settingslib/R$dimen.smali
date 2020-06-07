@@ -4,20 +4,20 @@
 
 
 # static fields
-.field public static final appear_y_translation_start:I = 0x7f07009a
+.field public static final appear_y_translation_start:I = 0x7f0700a2
 
-.field public static final battery_height:I = 0x7f0700aa
+.field public static final battery_height:I = 0x7f0700b2
 
-.field public static final battery_powersave_outline_thickness:I = 0x7f0700b2
+.field public static final battery_powersave_outline_thickness:I = 0x7f0700ba
 
-.field public static final battery_width:I = 0x7f0700b4
+.field public static final battery_width:I = 0x7f0700bc
 
-.field public static final bt_battery_padding:I = 0x7f0700c3
+.field public static final bt_battery_padding:I = 0x7f0700cb
 
-.field public static final signal_icon_size:I = 0x7f0706aa
+.field public static final signal_icon_size:I = 0x7f0706c0
 
-.field public static final two_target_pref_medium_icon_size:I = 0x7f07074a
+.field public static final two_target_pref_medium_icon_size:I = 0x7f070760
 
-.field public static final two_target_pref_small_icon_size:I = 0x7f07074b
+.field public static final two_target_pref_small_icon_size:I = 0x7f070761
 
-.field public static final wifi_preference_badge_padding:I = 0x7f07078c
+.field public static final wifi_preference_badge_padding:I = 0x7f0707a2

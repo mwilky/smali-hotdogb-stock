@@ -39,7 +39,7 @@
 
     const-string v11, "shapes"
 
-    const-string v12, "t"
+    const-string/jumbo v12, "t"
 
     const-string v13, "ef"
 
