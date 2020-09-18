@@ -111,7 +111,7 @@
 
     if-ne v0, v1, :cond_0
 
-    const v1, 0x7f120e8a
+    const v1, 0x7f120f08
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -122,7 +122,7 @@
     :cond_0
     if-nez v0, :cond_1
 
-    const v1, 0x7f120e8e
+    const v1, 0x7f120f0c
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -131,7 +131,7 @@
     return-object v1
 
     :cond_1
-    const v1, 0x7f120e88
+    const v1, 0x7f120f06
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -340,7 +340,7 @@
 
     aput-object v3, v2, v4
 
-    const v3, 0x7f120e90
+    const v3, 0x7f120f0e
 
     invoke-virtual {v1, v3, v2}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -356,7 +356,7 @@
 
     invoke-direct {v2, p0}, Lcom/oneplus/settings/better/ReadingModeEffectDetail$2;-><init>(Lcom/oneplus/settings/better/ReadingModeEffectDetail;)V
 
-    const v3, 0x7f0300c8
+    const v3, 0x7f0300cd
 
     invoke-virtual {v0, v3, v1, v2}, Lcom/oneplus/lib/app/OPAlertDialog$Builder;->setSingleChoiceItems(IILandroid/content/DialogInterface$OnClickListener;)Lcom/oneplus/lib/app/OPAlertDialog$Builder;
 
@@ -366,7 +366,7 @@
 
     invoke-direct {v1, p0}, Lcom/oneplus/settings/better/ReadingModeEffectDetail$1;-><init>(Lcom/oneplus/settings/better/ReadingModeEffectDetail;)V
 
-    const v2, 0x7f120105
+    const v2, 0x7f12010d
 
     invoke-virtual {v0, v2, v1}, Lcom/oneplus/lib/app/OPAlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lcom/oneplus/lib/app/OPAlertDialog$Builder;
 

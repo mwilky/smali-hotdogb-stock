@@ -150,7 +150,7 @@
 
     invoke-direct {v0, v1}, Lcom/oneplus/lib/app/OPAlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f120e8f
+    const v1, 0x7f120f0d
 
     invoke-virtual {v0, v1}, Lcom/oneplus/lib/app/OPAlertDialog$Builder;->setTitle(I)Lcom/oneplus/lib/app/OPAlertDialog$Builder;
 
@@ -160,7 +160,7 @@
 
     invoke-direct {v1, p0}, Lcom/oneplus/settings/better/OPReadingModeTurnOnPreferenceController$3;-><init>(Lcom/oneplus/settings/better/OPReadingModeTurnOnPreferenceController;)V
 
-    const v2, 0x7f0300c8
+    const v2, 0x7f0300cd
 
     const/4 v3, 0x3
 
@@ -172,7 +172,7 @@
 
     invoke-direct {v1, p0}, Lcom/oneplus/settings/better/OPReadingModeTurnOnPreferenceController$2;-><init>(Lcom/oneplus/settings/better/OPReadingModeTurnOnPreferenceController;)V
 
-    const v2, 0x7f120105
+    const v2, 0x7f12010d
 
     invoke-virtual {v0, v2, v1}, Lcom/oneplus/lib/app/OPAlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lcom/oneplus/lib/app/OPAlertDialog$Builder;
 
@@ -345,7 +345,7 @@
 
     iget-object v3, p0, Lcom/oneplus/settings/better/OPReadingModeTurnOnPreferenceController;->mSwitch:Lcom/android/settings/widget/MasterSwitchPreference;
 
-    const v4, 0x7f120e86
+    const v4, 0x7f120f04
 
     invoke-virtual {v3, v4}, Lcom/android/settings/widget/MasterSwitchPreference;->setSummary(I)V
 
@@ -356,7 +356,7 @@
 
     iget-object v3, p0, Lcom/oneplus/settings/better/OPReadingModeTurnOnPreferenceController;->mSwitch:Lcom/android/settings/widget/MasterSwitchPreference;
 
-    const v4, 0x7f120e96
+    const v4, 0x7f120f14
 
     invoke-virtual {v3, v4}, Lcom/android/settings/widget/MasterSwitchPreference;->setSummary(I)V
 
@@ -369,7 +369,7 @@
 
     iget-object v3, p0, Lcom/oneplus/settings/better/OPReadingModeTurnOnPreferenceController;->mSwitch:Lcom/android/settings/widget/MasterSwitchPreference;
 
-    const v4, 0x7f120e95
+    const v4, 0x7f120f13
 
     invoke-virtual {v3, v4}, Lcom/android/settings/widget/MasterSwitchPreference;->setSummary(I)V
 
