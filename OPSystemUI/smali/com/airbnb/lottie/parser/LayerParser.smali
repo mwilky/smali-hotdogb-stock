@@ -25,7 +25,7 @@
 
     const-string v4, "parent"
 
-    const-string v5, "sw"
+    const-string/jumbo v5, "sw"
 
     const-string v6, "sh"
 

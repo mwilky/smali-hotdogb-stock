@@ -51,7 +51,7 @@
 
     const-string v9, "sc"
 
-    const-string v10, "sw"
+    const-string/jumbo v10, "sw"
 
     const-string v11, "of"
 

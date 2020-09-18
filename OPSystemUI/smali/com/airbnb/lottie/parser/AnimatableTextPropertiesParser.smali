@@ -29,7 +29,7 @@
 
     const-string v1, "sc"
 
-    const-string v2, "sw"
+    const-string/jumbo v2, "sw"
 
     const-string/jumbo v3, "t"
 
